@@ -27,7 +27,7 @@ theme.set_hl = function()
 	hl("Constant", { bg = "NONE", fg = p.fg })
 	hl("Repeat", { bg = "NONE", fg = p.yellow })
 	hl("Keyword", { fg = p.yellow, bg = "NONE" })
-	hl("IncSearch", { fg = p.gray_2, bg = "NONE" })
+	hl("IncSearch", { fg = p.gray_2, bg = p.niagara })
 	hl("Title", { fg = p.gray_2, bg = "NONE" })
 	hl("PreCondit", { fg = p.gray_2, bg = "NONE" })
 	hl("Debug", { fg = p.gray_2, bg = "NONE" })
@@ -66,10 +66,10 @@ theme.set_hl = function()
 	hl("Visual", { bg = p.gray })
 
 	-- Vimwiki stuff
-	hl("VimwikiHeader1", { bg = p.yellow })
-	hl("VimwikiHeader2", { bg = p.yellow_2 })
-	hl("VimwikiHeader3", { bg = p.yellow_3 })
-	hl("VimwikiHeader4", { bg = p.yellow_4 })
+	hl("VimwikiHeader1", { fg = p.yellow })
+	hl("VimwikiHeader2", { fg = p.yellow_2 })
+	hl("VimwikiHeader3", { fg = p.yellow_3 })
+	hl("VimwikiHeader4", { fg = p.yellow_4 })
 
 	--Git stuff
 	hl("GitGutterAdd", { bg = "NONE", fg = p.yellow })
