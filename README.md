@@ -5,4 +5,4 @@ It is heavily inspired by the [Grubber Darker](https://github.com/rexim/gruber-d
 
 ### Preview
 
-![alt text](https://imgur.com/GgDeLNo)
+![color preview print](https://i.imgur.com/GgDeLNo.png)
