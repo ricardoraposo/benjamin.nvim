@@ -91,6 +91,8 @@ theme.set_hl = function()
   hl("TSType", { fg = p.quartz, bg = "NONE" })
   hl("TSError", { fg = p.red, bg = "NONE" })
   hl("TSWarning", { fg = p.orange, bg = "NONE" })
+	hl("TSParameter", { fg = p.white, bg = "NONE", bold = true })
+	hl("TSVariableBuiltin", { fg = p.yellow, bg = "NONE", bold = true })
 end
 
 return theme
