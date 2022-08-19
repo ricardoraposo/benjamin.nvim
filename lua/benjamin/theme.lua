@@ -9,7 +9,7 @@ local theme = {}
 theme.set_hl = function()
 	hl("Normal", { bg = p.black, fg = p.fg })
 	hl("CursorLine", { bg = p.really_gray, fg = "NONE" })
-	hl("LineNr", { bg = "NONE", fg = p.blue })
+	hl("LineNr", { bg = "NONE", fg = p.blue, bold = true })
 	hl("CursorLineNr", { bg = "NONE", fg = p.gray_2 })
 	hl("Comment", { bg = "NONE", fg = p.comment_gray, italic = true })
 	hl("SpecialComment", { bg = "NONE", fg = p.orange, italic = true })
@@ -89,10 +89,11 @@ theme.set_hl = function()
 
 	-- Treesitter stuff
 	hl("TSType", { fg = p.quartz, bg = "NONE" })
-	hl("TSError", { fg = p.red, bg = "NONE" })
-	hl("TSWarning", { fg = p.orange, bg = "NONE" })
+	hl("TSFunction", { fg = p.white, bg = "NONE" })
 	hl("TSParameter", { fg = p.white, bg = "NONE", bold = true })
 	hl("TSVariableBuiltin", { fg = p.yellow, bg = "NONE", bold = true })
+	hl("TSError", { fg = p.red, bg = "NONE" })
+	hl("TSWarning", { fg = p.orange, bg = "NONE" })
 end
 
 return theme
