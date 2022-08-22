@@ -8,9 +8,9 @@ local theme = {}
 
 theme.set_hl = function()
 	hl("Normal", { bg = p.black, fg = p.fg })
-	hl("CursorLine", { bg = p.really_gray, fg = "NONE" })
-	hl("LineNr", { bg = "NONE", fg = p.blue, bold = true })
-	hl("CursorLineNr", { bg = "NONE", fg = p.gray_2 })
+	hl("CursorLine", { bg = "NONE", fg = "NONE" })
+	hl("LineNr", { bg = "NONE", fg = p.gray, bold = true })
+	hl("CursorLineNr", { bg = "NONE", fg = p.yellow })
 	hl("Comment", { bg = "NONE", fg = p.comment_gray, italic = true })
 	hl("SpecialComment", { bg = "NONE", fg = p.orange, italic = true })
 	hl("DiffText", { bg = "NONE", fg = p.yellow })
