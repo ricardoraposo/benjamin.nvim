@@ -1,6 +1,7 @@
 local palette = {
   -- Background and Foreground
   bg = "#181818",
+  bg_2 = "#202020",
   fg = "#c6d5cf",
   fg_2 = "#e4e4ef",
   fg_3 = "#0f191f",
